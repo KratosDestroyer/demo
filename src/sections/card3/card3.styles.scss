@@ -1,0 +1,52 @@
+.card3-container{
+    padding: 100px 0;
+    background-color: #16a500;
+}
+
+.card3-fixed-container {
+    margin: 0 100px;
+}
+
+.card3-title{
+    margin-top: 55px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-family: "DIN-Black";
+    font-size: 126px;
+    letter-spacing: -5.02px;
+    line-height: 96px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card3-subtitle{
+    margin-bottom: 55px;
+    text-align: center;
+    color: #FFF;
+    font-family: 'DIN-Black';
+    font-size: 22px;
+    line-height: 55px;
+    letter-spacing: -0.88px;
+}
+
+.card3-case-study-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card3-case-study-cover{
+    box-shadow: 0px 2px 4px black;
+    margin-right: 25px;
+}
+
+.card3-case-study-description{
+    width: 100%;
+    max-width: 500px;
+    color: #fff;
+    font-family: "DIN-Regular";
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 28px;
+    display: block;
+}

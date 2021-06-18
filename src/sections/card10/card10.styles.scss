@@ -1,0 +1,137 @@
+.card10-container{
+    padding: 100px;
+    background-color: #444;
+}
+
+.csfmc-bottom-section{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0px 30px;
+}
+
+.csfmc-item-bottom {
+    cursor: pointer;
+    position: relative;
+}
+
+.csfmc-item-bottom.active::before {
+    width: 100%;
+}
+
+.csfmc-item-bottom:hover::before {
+    width: 100%;
+}
+
+.csfmc-item-bottom::before {
+    content: '';
+    width: 0;
+    height: 8px;
+    background: #16a500;
+    position: absolute;
+    left: 0;
+    top: -50px;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.csfmc-item-bottom:hover img {
+    opacity: 1;
+}
+
+.csfmc-item-bottom.active img {
+    opacity: 1;
+}
+
+.csfmc-ib-img img {
+    opacity: .5;
+    transition: opacity .3s,visibility .3s;
+}
+
+.csfmc-ib-title {
+    color: white;
+    font-family: 'DIN-Black',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    letter-spacing: -0.64px;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-top: 35px;
+}
+
+.csfmc-ib-text {
+    color: white;
+    font-family: 'DIN-Regular',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    padding-right: 25px;
+    margin-top: 10px;
+}
+
+
+.csfmc-item-top.active{
+    display: block;
+}
+
+.csfmc-item-top{
+    display: none;
+    justify-content: space-between;
+}
+
+.csfmc-it-cont{
+    display: flex;
+}
+
+.csfmc-big-title{
+    font-weight: bold;
+    width: 100%;
+    max-width: 645px;
+    color: white;
+    font-size: 126px;
+    letter-spacing: -5.02px;
+    line-height: 96px;
+    margin-top: 35px;
+    text-transform: uppercase;
+}
+
+.csfmc-item-top .csfmc-it-left {
+    width: 60%;
+}
+
+.csfmc-item-top .csfmc-it-right{
+    margin-top: 135px;
+    width: 40%;
+}
+
+.slideInDown{
+    animation-name: slideInDown;
+}
+
+.csfmc-excerpt{
+    color:white;
+    font-family: 'DIN-Regular',Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+
+.csfmc-excerpt p {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    color:white;
+    font-family: 'DIN-Regular',Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+
+@keyframes slideInDown{
+    0%{
+        transform: translate3d(0,-100%,0);
+        visibility: visible;
+    }
+
+    100%{
+        transform: translate3d(0,0,0);
+    }
+}
+

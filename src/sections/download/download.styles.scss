@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.container{
+    padding-top: 10%;
+    padding-right: 60%;
+    padding-bottom: 10%;
+    padding-left: 100px;
+}
+.download{
+    display: flex;
+    justify-content: space-between;
+}
+
+.download-text{
+    font-size: 10vw;
+    font-weight: bold;
+    color:white; 
+    text-align: left;
+    font-family: 'Bebas Neue';
+    line-height: 5vw;
+    letter-spacing: 0.5vw;
+}
+
+.content-container{
+    padding: 0 100px;
+}
+
+.cell{
+    margin: 0px;
+    width: fit-content;
+
+}
+
+.cell-column-1{
+    width: 293px;
+    float: left;
+}
+
+.cell-column-2{
+    width: auto;
+    margin-left: 100px;
+    padding-left: 300px;
+}
+
+.row-1{
+    color: white;
+    font-family:  'DIN-Regular',Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    letter-spacing: .2px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    width: 293px;
+}
+
+.row-2{
+    color:white;
+    font-family:  'DIN-Regular',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 26px;
+    margin-bottom: 20px;
+    width: 293px;
+}
+
+.row-3{
+    width: 293px;
+}
+
+.image-row{
+    vertical-align: bottom;
+    width: 293px;
+}
+
+
+
+#large-text{
+    color: white;
+    font-family:  'DIN-Regular',Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    letter-spacing: .2px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.paragraph{
+    color:white;
+    font-family:  'DIN-Regular',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+
+ul{
+    margin: 0px;
+}
+
+li{
+    color: white;
+    font-family:  'DIN-Regular',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.form-heading{
+    color:white;
+    font-family: "DIN-Black";
+    font-size: 22px;
+    letter-spacing: .2px;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+
+.form-label{
+    color:white;
+    font-family: 'DIN-Regular',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 26px;
+    margin-top: 30px;
+    display: block;
+
+}
+
+.form-input{
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #777;
+    opacity: .6;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    letter-spacing: .83px;
+    line-height: 15px;
+    min-height: 40px;
+    margin-top: 5px;
+    padding-left: 0px;
+    width: 90%;
+}
+
+.submit-btn{
+    color: #fff;
+    font-family: "DIN-Black";
+    font-size: 16px;
+    letter-spacing: .19px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #16a500;
+    border: 0;
+    padding: 2px 99px;
+    margin-top: 40px;
+    -webkit-appearance: none;
+}
+
+

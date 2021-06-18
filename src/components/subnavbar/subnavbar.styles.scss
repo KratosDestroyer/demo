@@ -1,0 +1,22 @@
+.menu-overflow{
+    color:black;
+    position: fixed;
+    left: 0;
+    top: 5.2vw;
+    transform: translate3d(-100vw, 0, 0);
+    background-color: brown;      
+    width: 100vw;
+    height: 14vh;
+    color: white;
+    padding-top: 2vw;
+    box-shadow: 0px 2px grey;
+    font-size: small;    
+ul {
+    float: left;
+    li{
+        list-style: none;
+    }
+}
+
+}
+

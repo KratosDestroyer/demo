@@ -1,0 +1,51 @@
+.card9-container{
+    padding: 100px 0;
+    background-color: white;
+}
+
+.card3-fixed-container{
+    margin: 0 100px;
+}
+
+.card3-fixed-container-cell{
+    margin-left: 444.5px;
+}
+
+.card3-cell-title-row{
+    font-weight: bold;
+    padding-bottom: 55px;
+    font-size: 44px;
+    letter-spacing: normal;
+    max-width: 533px;
+    text-transform: uppercase;
+}
+
+.image-text{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 25px;
+    max-width: 533px;
+}
+
+.card3-cell-image{
+    float: left;
+    width: fit-content;
+}
+
+.card3-cell-text{
+    width: fit-content;
+    margin-left: 32.5625px;
+}
+
+.card3-cell-row-text{
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: normal;
+    line-height: 21px;
+    overflow-wrap: break-word;
+    text-transform: uppercase;
+}
+
+.card3-cell-text-paragraph{
+    width: fit-content;
+}

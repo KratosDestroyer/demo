@@ -1,0 +1,52 @@
+.carousel-container{
+    background-color: white;
+    padding: 50px 84.6px;
+    border: 1px solid black;
+}
+
+.carousel-slide{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.slider-left{
+    width: 100%;
+    max-width: 564px;
+    border: 1px solid black;
+}
+
+.slider-big-header{
+    color: #444;
+    font-family: "DIN-Black";
+    font-size: 96px;
+    letter-spacing: -3.82px;
+    line-height: 74px;
+    border: 1px solid black;
+}
+
+.slider-right{
+    width: 100%;
+    max-width: 462px;
+    border:  1px solid black;
+}
+
+.slider-right-heading{
+    color: #444;
+    font-family: "DIN-Black";
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 42px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.slider-right-text{
+    color: #444;
+    font-family: "DIN-Regular";
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 28px;
+    display: block;
+}

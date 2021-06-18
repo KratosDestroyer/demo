@@ -1,0 +1,63 @@
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    
+.logo-container{
+    height: 5vw;
+    width: 5vw;
+    padding: 1vw;
+}
+
+.logo-image{
+    width: 4vw;
+    margin: 1vw;
+}
+
+.menu-items, .side-items {
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 2vw;
+
+.ind-items, .rs-items{
+    transition: color 0.5s ease;
+    margin-top: 0.5vw;
+    padding-left: 2vw;
+    font-size: small;
+    }
+
+.button{
+    border: solid white 1px;
+    padding: 10px;
+    height: 20px;
+    font-size: small;
+}
+}
+}
+
+.button:hover {
+    transition: background-color 0.5s ease;
+    background-color: brown;
+}
+
+.ind-items:hover , .rs-items:hover{
+    color: brown;
+    cursor: pointer;
+
+}
+
+.rs-items:hover  > .menu-overflow , .menu-overflow:hover{
+    transform: translate3d(0vw, 0vw, 0);
+    transition: transform 1s cubic-bezier(0, .52, 0, 1);
+} 
+
+.rs-items:hover  .rs-icon, .menu-overflow:hover .rs-icon{
+    transform: rotate(180deg);
+    transition: transform  0.5s ease-in;
+}
+
+
+ul {
+    margin-left: 50vw;
+}

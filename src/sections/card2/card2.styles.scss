@@ -1,0 +1,35 @@
+.card2-container{
+    padding: 100px 0;
+    background-color: white;
+}
+
+.hide{
+    display: none;
+}
+
+.card2-fixed-container{
+    margin: 0 100px;
+}
+
+.card2-top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.right-text-title{
+    font-family: 'Mate SC', serif;
+    font-size: 44px;
+    line-height: 38px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.right-text p{
+    margin-right: 40px;
+    line-height: 28px;
+    font-size: 22px;
+    cursor: default;
+    color:black;
+}
